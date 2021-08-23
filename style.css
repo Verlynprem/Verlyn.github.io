@@ -45,6 +45,53 @@ body{
    position: absolute;
    top: 14px;
    right: 5px;
+}
+
+.btn{
+    
+    border: none;
+    border-radius: 10px;
+    margin: 25px 7px;
+    padding: 11px 21px;
+    font-family: 'Ubuntu', sans-serif;
+    /* width: 20%; */
+
+}
+
+#login{
+    background-color: rgb(255, 1, 86);
+    border: 2px solid black;
+
+}
+
+#signup{
+    background-color: rgb(1, 183, 255);
+    border: 2px solid black;
+}
+
+#login:hover{
+    border: 2px solid black;
+    transition:1s;
+    border-radius:50px;
+    background-color: rgb(241, 0, 0);
+
+}
+#signup:hover{
+    border: 2px solid black;
+    transition:1s;
+    border-radius:50px;
+    background-color: rgb(0, 255, 21);
+    
+
+}
+
+.btn:hover{
+    
+    cursor: pointer;
+        
+
+
+}
 
 }
 .navbar{
