@@ -118,6 +118,111 @@ a{
 
 }
 
+.navbar li a:hover{
+    
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(69, 255, 22);
+
+}
+
+.Tech{
+
+    /* border: 2px solid black; */
+    padding: 1px 1px;
+    margin: 1px 1px;
+    position: absolute;
+    left: 200px;
+    top: 19%;
+    display: inline-block;
+    width: 50%;
+
+
+}
+
+.Tech h1{
+    color: white;
+    font-size: 120px;
+    text-shadow: 0 0 30px black;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Acme', sans-serif;
+
+}
+
+
+.container {
+    background-color: rgba(0, 0, 0, 0.219);
+    position: absolute;
+    right: 30px;
+    top: 170px;
+    border: 2px solid black;
+    padding: 45px;
+    border-radius: 40px;
+
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 300px;
+    height: 30px;
+    padding: 1px;
+    border: 2px solid rgb(71, 10, 90);
+    margin: 11px auto;
+    font-size: 15px;
+    border-radius: 8px;
+
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    /* border: 3px red solid; */
+    /* display: inline-block; */
+    /* margin: auto; */
+    padding: 3px 3px;
+    font-size: 72px;
+    color: aliceblue;
+}
+
+/* #btnlog1{
+
+    padding: 3px 3px;
+    margin: 3px 3px;
+
+
+}
+
+#btnlog2{
+
+ padding: 3px 3px;
+    margin: 3px 3px;
+} */
+
+.loginbuttons{
+
+   position: relative;
+   left: 70px;
+   top: 15px;
+
+}
+
+.container:hover{
+
+    background-color: rgba(255, 0, 0, 0.13);
+    transition: 3s;
+}
+
+.container h3 :hover{
+
+    color: floralwhite;
+    text-shadow: 0 0 50px black;
+
+}
+
+
+
 
 
 
