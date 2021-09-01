@@ -39,8 +39,8 @@ body{
 
 .right{
 
-   color: white;
-   border: white 2px solid;
+   /*color: white;
+   border: white 2px solid;*/
    display: inline-block;
    position: absolute;
    top: 14px;
